@@ -160,34 +160,42 @@ Trust = **Systematic validation**
 
 ---
 
-### Part 4: Validation & Impact (5 minutes)
+### Part 4: Framework Design & Expected Impact (5 minutes)
 
-#### Pilot Program Results
-**Participants**: 50 higher ed professionals
-**Duration**: 6 weeks
+#### Framework Validation Approach
+**Recommendation**: Institutions should conduct pilot programs to measure effectiveness
 
-**Results**:
-- **87%** improvement in threat detection
-- **92%** improvement in privacy risk identification
-- **78%** improvement in bias awareness
-- **95%** increased confidence in AI governance
+**Suggested Pilot Setup**:
+- 10-50 participants (mixed roles)
+- 4-6 weeks duration
+- Pre/post assessment measurements
 
-#### Qualitative Feedback
+**Target Outcomes** (based on framework design):
+- Significant improvement in AI threat detection
+- Enhanced privacy risk identification
+- Increased bias awareness
+- Greater confidence in AI governance
 
-**CISO, Large University**:
-> "First training that actually addresses what we face daily. The hierarchical approach made complex topics manageable."
+> **Important**: Share with audience that these are anticipated outcomes based on research-grounded design. Encourage them to measure their own results.
 
-**Faculty Member**:
-> "I thought I understood AI privacy until the implicit data scenario. Eye-opening."
+#### Why This Framework Works
 
-**Administrator**:
-> "Practical scenarios from our context make this immediately applicable."
+**Research-Based**:
+- Grounded in TIPS framework from peer-reviewed research
+- Hierarchical approach supported by metaverse adoption studies
+- Context-aware scenarios from real higher education challenges
+
+**Comprehensive Coverage**:
+- 20+ realistic scenarios across 4 dimensions
+- 20+ competencies assessed
+- Personalized learning paths
 
 #### Novel Metrics
-Beyond knowledge tests:
+Beyond knowledge tests, we recommend measuring:
 - **Application**: Can they apply to new scenarios?
 - **Transfer**: Can they generalize to different contexts?
 - **Behavior Change**: Actual practice changes tracked
+- **Retention**: Skills maintained 3 months later
 
 ---
 

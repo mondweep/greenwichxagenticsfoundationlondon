@@ -304,23 +304,27 @@ Every scenario includes ethical dimension analysis, training learners to:
 - Make reasoned decisions
 - Justify their choices
 
-## Validation and Impact
+## Expected Impact and Validation Approach
 
-### Pilot Program Results
-- **Participants**: 50 higher education professionals (25 CISOs, 25 faculty/admin)
-- **Duration**: 6 weeks
-- **Results**:
-  - 87% improvement in threat detection
-  - 92% improvement in privacy risk identification
-  - 78% improvement in bias awareness
-  - 95% reported increased confidence in AI governance decisions
+### Framework Validation Strategy
+The framework is designed for institutional pilot programs to measure effectiveness. We recommend:
+
+- **Suggested Pilot Size**: 10-50 participants (mixed roles: CISOs, faculty, administrators)
+- **Recommended Duration**: 4-6 weeks
+- **Target Outcomes**:
+  - Significant improvement in AI threat detection
+  - Enhanced privacy risk identification skills
+  - Increased bias awareness and mitigation capabilities
+  - Greater confidence in AI governance decisions
+
+> **Note**: These are anticipated outcomes based on the framework's research-grounded design. Actual results will vary by institution, participant background, and implementation approach. We strongly encourage institutions to conduct their own pilot programs and measure results using the metrics below.
 
 ### Novel Metrics
-Traditional training measures **knowledge**. We measure:
-1. **Application**: Can learners apply to new scenarios?
+Traditional training measures **knowledge**. We recommend measuring:
+1. **Application**: Can learners apply concepts to new scenarios?
 2. **Transfer**: Can they generalize to different contexts?
-3. **Retention**: Performance 3 months later
-4. **Behavior Change**: Actual practice changes
+3. **Retention**: Performance 3 months after training
+4. **Behavior Change**: Actual practice changes in their work
 
 ## Future Directions
 
