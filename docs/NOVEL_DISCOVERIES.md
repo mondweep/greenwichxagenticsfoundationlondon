@@ -31,7 +31,7 @@ Without secure infrastructure, identity management is vulnerable. Without proper
 ## 2. Explicit vs Implicit Data Collection in AI
 
 ### The Problem
-Current privacy training focuses on **explicit data** (what users knowingly share). AI systems also collect **implicit data** (inferred from behavior patterns).
+Current privacy training focuses on **explicit data** (what users knowingly share). AI systems also collect **implicit data** (inferred from behaviour patterns).
 
 ### Novel Framework
 We distinguish four data types in AI interactions:
@@ -87,7 +87,7 @@ We developed a novel threat taxonomy specific to autonomous agents:
 #### Tier 4: Training/Model Threats
 - **Data Poisoning**: Corrupting training data
 - **Model Inversion**: Extracting sensitive training data
-- **Backdoor Attacks**: Hidden malicious behaviors
+- **Backdoor Attacks**: Hidden malicious behaviours
 
 ### Innovation
 First comprehensive taxonomy mapping **agentic autonomy levels** to **threat vectors**, enabling risk-based training prioritization.
@@ -135,7 +135,7 @@ We map TIPS framework to cyber resilience pillars:
 
 | TIPS Dimension | Resilience Pillar | CISO Responsibility |
 |----------------|-------------------|---------------------|
-| Security | Anticipate | Threat modeling for AI systems |
+| Security | Anticipate | Threat modelling for AI systems |
 | Identity | Withstand | Authentication/authorization architecture |
 | Privacy | Recover | Data breach response, consent management |
 | Trust | Adapt | Continuous monitoring, bias detection |

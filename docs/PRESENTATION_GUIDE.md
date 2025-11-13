@@ -129,7 +129,7 @@ Discussion: Why B is correct, why A is dangerous
 **Instead**:
 1. Assess current competencies
 2. Identify specific gaps
-3. Generate personalized path
+3. Generate personalised path
 4. Follow hierarchical order
 5. Continuous reassessment
 

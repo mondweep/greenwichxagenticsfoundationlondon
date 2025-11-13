@@ -153,7 +153,7 @@ npm run demo
 
 # Follow the interactive scenarios
 # Review your results
-# Follow the personalized learning path
+# Follow the personalised learning path
 ```
 
 ### For Team Training

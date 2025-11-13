@@ -6,7 +6,7 @@
 
 This project implements a comprehensive training framework for teaching individuals to use Generative and Agentic AI responsibly, based on the TIPS framework (Trust, Identity, Privacy, Security).
 
-**Now available as a beautiful web application with interactive assessments, real-time feedback, and personalized learning paths!**
+**Now available as a beautiful web application with interactive assessments, real-time feedback, and personalised learning paths!**
 
 ## Background
 

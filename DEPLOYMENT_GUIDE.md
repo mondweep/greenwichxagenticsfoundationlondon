@@ -252,7 +252,7 @@ Check function logs (if you add serverless functions):
    ```
 3. Enable HTTPS in Netlify (automatic with Let's Encrypt)
 
-## Performance Optimization
+## Performance Optimisation
 
 ### Already Implemented
 
@@ -265,7 +265,7 @@ Check function logs (if you add serverless functions):
 ### Future Enhancements
 
 Consider adding:
-- **Image optimization:** Use Netlify Image CDN
+- **Image optimisation:** Use Netlify Image CDN
 - **Asset minification:** Add build step with Terser/cssnano
 - **Code splitting:** Break JavaScript into smaller chunks
 - **Service worker:** Add offline support with Workbox

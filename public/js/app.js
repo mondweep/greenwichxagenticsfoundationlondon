@@ -429,7 +429,7 @@ window.openResource = function(resourceType) {
                     <li><strong>Create your profile</strong> - Tell us about your role and experience</li>
                     <li><strong>Complete the assessment</strong> - Work through 4 realistic scenarios</li>
                     <li><strong>Review your results</strong> - See your competency scores and recommendations</li>
-                    <li><strong>Follow your learning path</strong> - Get personalized training modules</li>
+                    <li><strong>Follow your learning path</strong> - Get personalised training modules</li>
                 </ol>
                 <p>The complete assessment takes approximately 15-20 minutes.</p>
                 <a href="#demo" onclick="closeResourceModal(); scrollToDemo();" class="btn btn-primary" style="margin-top: 1rem;">Start Now</a>
