@@ -1,8 +1,12 @@
 # TIPS Framework for Responsible Agentic AI Training
 
+🌐 **[Live Web Application](https://tips-framework.netlify.app)** | 📚 [Documentation](docs/) | 💻 [GitHub](https://github.com/mondweep/greenwichxagenticsfoundationlondon)
+
 ## Overview
 
 This project implements a comprehensive training framework for teaching individuals to use Generative and Agentic AI responsibly, based on the TIPS framework (Trust, Identity, Privacy, Security).
+
+**Now available as a beautiful web application with interactive assessments, real-time feedback, and personalized learning paths!**
 
 ## Background
 
@@ -62,6 +66,59 @@ This framework addresses the critical need for structured training on responsibl
 2. **Practical Scenarios**: Real-world examples relevant to higher education and enterprise contexts
 3. **Assessment Tools**: Measure understanding and application of TIPS principles
 4. **Interactive Learning**: Hands-on demonstrations with agentic AI systems
+
+## 🚀 Quick Start
+
+### Web Application (Recommended)
+
+Visit the live web application: **[tips-framework.netlify.app](https://tips-framework.netlify.app)**
+
+Or run locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/mondweep/greenwichxagenticsfoundationlondon.git
+cd greenwichxagenticsfoundationlondon
+
+# Start local web server
+npm run dev
+
+# Open http://localhost:8080 in your browser
+```
+
+### Command Line Interface
+
+```bash
+# Install dependencies
+npm install
+
+# Run interactive CLI demo
+npm run demo
+
+# Takes ~15 minutes, provides:
+# - User profiling
+# - 4 realistic scenarios
+# - Immediate feedback
+# - Personalized learning path
+```
+
+## 🌟 Features
+
+### Web Application
+- ✨ **Beautiful, Modern UI** - Responsive design that works on all devices
+- 🎯 **Interactive Assessment** - Engage with 20+ realistic scenarios
+- 📊 **Real-Time Feedback** - Instant scoring and explanations
+- 📈 **Visual Analytics** - Progress tracking and competency breakdowns
+- 🎓 **Learning Paths** - Personalized recommendations based on your results
+- 💾 **Export Results** - Download your assessment for records
+- 🔒 **Privacy-Focused** - All data stays in your browser
+
+### Framework
+- 📚 **Research-Based** - Grounded in peer-reviewed publications
+- 🏗️ **Hierarchical Learning** - Security → Identity → Privacy → Trust
+- 🎯 **Context-Aware** - Scenarios for higher education (FERPA, academic integrity)
+- 🔄 **Continuously Evolving** - Built-in research tools for updates
+- 📊 **Competency-Based** - Granular assessment across 20+ competencies
 
 ## Getting Started
 
