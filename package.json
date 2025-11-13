@@ -1,0 +1,30 @@
+{
+  "name": "tips-agentic-ai-training",
+  "version": "1.0.0",
+  "description": "TIPS Framework for Responsible Agentic AI Training - A comprehensive training system for higher education institutions",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "demo": "node demos/interactive-demo.js",
+    "assess": "node src/assessment/run-assessment.js",
+    "research": "npx research-swarm research",
+    "flow": "npx claude-flow@alpha",
+    "db": "npx agentdb"
+  },
+  "keywords": [
+    "TIPS",
+    "agentic-ai",
+    "training",
+    "security",
+    "privacy",
+    "trust",
+    "identity",
+    "higher-education",
+    "cyber-resilience"
+  ],
+  "author": "Greenwich Agentics Foundation London",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

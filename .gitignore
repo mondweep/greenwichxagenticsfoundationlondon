@@ -1,0 +1,11 @@
+node_modules/
+*.log
+.env
+.DS_Store
+data/results-*.json
+data/agentdb.db
+data/research-findings.txt
+.npm/
+*.swp
+*.swo
+*~
