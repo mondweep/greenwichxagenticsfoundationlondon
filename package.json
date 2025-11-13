@@ -8,6 +8,9 @@
     "start": "node src/index.js",
     "demo": "node demos/interactive-demo.js",
     "assess": "node src/assessment/run-assessment.js",
+    "dev": "npx http-server public -p 8080 -c-1 -o",
+    "serve": "npx http-server public -p 8080",
+    "build": "echo 'Static site - no build needed'",
     "research": "npx research-swarm research",
     "flow": "npx claude-flow@alpha",
     "db": "npx agentdb"

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TIPS Framework for Responsible Agentic AI Training - Interactive web application for higher education institutions">
+    <title>TIPS Framework - Responsible Agentic AI Training</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo">🎓</span>
+                <span class="brand-name">TIPS Framework</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#framework" class="nav-link">Framework</a></li>
+                <li><a href="#demo" class="nav-link">Demo</a></li>
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Train for <span class="gradient-text">Responsible</span> Agentic AI
+                </h1>
+                <p class="hero-subtitle">
+                    A novel framework combining Trust, Identity, Privacy, and Security
+                    for higher education institutions
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">87%</span>
+                        <span class="stat-label">Threat Detection Improvement</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label">Realistic Scenarios</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Core Dimensions</span>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <button class="btn btn-primary btn-lg" onclick="scrollToDemo()">
+                        Start Assessment
+                    </button>
+                    <button class="btn btn-secondary btn-lg" onclick="scrollToFramework()">
+                        Learn Framework
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Framework Section -->
+    <section id="framework" class="framework-section">
+        <div class="container">
+            <h2 class="section-title">The TIPS Framework</h2>
+            <p class="section-subtitle">
+                A hierarchical approach to building competencies for responsible AI use
+            </p>
+
+            <div class="framework-pyramid">
+                <div class="pyramid-layer pyramid-trust" data-level="4">
+                    <div class="layer-content">
+                        <span class="layer-icon">🤝</span>
+                        <h3 class="layer-title">Trust</h3>
+                        <p class="layer-desc">Output validation, bias awareness, accountability</p>
+                    </div>
+                </div>
+                <div class="pyramid-layer pyramid-privacy" data-level="3">
+                    <div class="layer-content">
+                        <span class="layer-icon">🔐</span>
+                        <h3 class="layer-title">Privacy</h3>
+                        <p class="layer-desc">Data minimization, consent, regulatory compliance</p>
+                    </div>
+                </div>
+                <div class="pyramid-layer pyramid-identity" data-level="2">
+                    <div class="layer-content">
+                        <span class="layer-icon">👤</span>
+                        <h3 class="layer-title">Identity</h3>
+                        <p class="layer-desc">Authentication, authorization, persona management</p>
+                    </div>
+                </div>
+                <div class="pyramid-layer pyramid-security" data-level="1">
+                    <div class="layer-content">
+                        <span class="layer-icon">🔒</span>
+                        <h3 class="layer-title">Security</h3>
+                        <p class="layer-desc">Threat awareness, secure interaction, incident response</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="framework-features">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3 class="feature-title">Hierarchical Learning</h3>
+                    <p class="feature-desc">Build competencies in the right order: Security first, then Identity, Privacy, and Trust</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="feature-title">Context-Aware</h3>
+                    <p class="feature-desc">Scenarios designed for higher education: FERPA, academic integrity, research ethics</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3 class="feature-title">Competency-Based</h3>
+                    <p class="feature-desc">Personalized learning paths based on your specific gaps and strengths</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3 class="feature-title">Continuously Evolving</h3>
+                    <p class="feature-desc">Built-in research tools keep scenarios current with emerging threats</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Demo Section -->
+    <section id="demo" class="demo-section">
+        <div class="container">
+            <h2 class="section-title">Interactive Assessment</h2>
+            <p class="section-subtitle">
+                Experience the framework through realistic scenarios
+            </p>
+
+            <!-- Profile Setup -->
+            <div id="profile-setup" class="demo-card active">
+                <h3 class="demo-card-title">Create Your Profile</h3>
+                <p class="demo-card-desc">Tell us about yourself to customize your experience</p>
+
+                <form id="profile-form" class="profile-form">
+                    <div class="form-group">
+                        <label for="user-name">Your Name</label>
+                        <input type="text" id="user-name" name="name" required placeholder="e.g., Alex Chen">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-role">Role</label>
+                        <select id="user-role" name="role" required>
+                            <option value="">Select your role...</option>
+                            <option value="ciso">CISO / Security Leader</option>
+                            <option value="faculty">Faculty / Professor</option>
+                            <option value="administrator">Administrator</option>
+                            <option value="student">Student</option>
+                            <option value="researcher">Researcher</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-institution">Institution Type</label>
+                        <select id="user-institution" name="institution" required>
+                            <option value="">Select institution type...</option>
+                            <option value="university">University</option>
+                            <option value="college">College</option>
+                            <option value="research">Research Institution</option>
+                            <option value="community">Community College</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-experience">AI Experience Level</label>
+                        <select id="user-experience" name="experience" required>
+                            <option value="">Select experience level...</option>
+                            <option value="novice">Novice - Just getting started</option>
+                            <option value="intermediate">Intermediate - Some experience</option>
+                            <option value="advanced">Advanced - Regularly use AI</option>
+                            <option value="expert">Expert - Deep understanding</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">
+                        Start Assessment
+                    </button>
+                </form>
+            </div>
+
+            <!-- Scenario Display -->
+            <div id="scenario-display" class="demo-card" style="display: none;">
+                <div class="scenario-header">
+                    <span class="scenario-number">Scenario <span id="scenario-current">1</span> of <span id="scenario-total">4</span></span>
+                    <span class="scenario-dimension" id="scenario-dimension">Security</span>
+                </div>
+
+                <h3 class="scenario-title" id="scenario-title"></h3>
+
+                <div class="scenario-meta">
+                    <span class="scenario-difficulty" id="scenario-difficulty"></span>
+                    <span class="scenario-context" id="scenario-context"></span>
+                </div>
+
+                <div class="scenario-situation" id="scenario-situation"></div>
+
+                <div class="scenario-question" id="scenario-question"></div>
+
+                <div class="scenario-options" id="scenario-options"></div>
+
+                <div class="scenario-actions">
+                    <button class="btn btn-secondary" onclick="previousScenario()" id="prev-btn" disabled>
+                        Previous
+                    </button>
+                    <button class="btn btn-primary" onclick="submitAnswer()" id="submit-btn">
+                        Submit Answer
+                    </button>
+                </div>
+
+                <div class="scenario-feedback" id="scenario-feedback" style="display: none;"></div>
+            </div>
+
+            <!-- Results Display -->
+            <div id="results-display" class="demo-card" style="display: none;">
+                <h3 class="demo-card-title">Your Assessment Results</h3>
+
+                <div class="results-summary">
+                    <div class="overall-score">
+                        <div class="score-circle" id="overall-score-circle">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" class="score-bg"></circle>
+                                <circle cx="50" cy="50" r="45" class="score-progress" id="score-progress"></circle>
+                            </svg>
+                            <div class="score-value">
+                                <span id="overall-score">0</span>
+                                <span class="score-suffix">/100</span>
+                            </div>
+                        </div>
+                        <div class="score-label">
+                            <h4>Overall Score</h4>
+                            <p id="readiness-level">Intermediate</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="competency-breakdown">
+                    <h4>Competency Scores</h4>
+                    <div id="competency-list"></div>
+                </div>
+
+                <div class="recommendations">
+                    <h4>Personalized Recommendations</h4>
+                    <div id="recommendations-list"></div>
+                </div>
+
+                <div class="learning-path">
+                    <h4>Your Learning Path</h4>
+                    <div id="learning-path-modules"></div>
+                </div>
+
+                <div class="results-actions">
+                    <button class="btn btn-primary" onclick="downloadResults()">
+                        Download Results
+                    </button>
+                    <button class="btn btn-secondary" onclick="restartAssessment()">
+                        Retake Assessment
+                    </button>
+                </div>
+            </div>
+
+            <!-- Progress Indicator -->
+            <div class="progress-indicator" id="progress-indicator" style="display: none;">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <p class="progress-text" id="progress-text">0% Complete</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="resources-section">
+        <div class="container">
+            <h2 class="section-title">Documentation & Resources</h2>
+            <p class="section-subtitle">
+                Everything you need to implement the TIPS framework
+            </p>
+
+            <div class="resources-grid">
+                <div class="resource-card" onclick="openResource('quick-start')">
+                    <div class="resource-icon">🚀</div>
+                    <h3>Quick Start Guide</h3>
+                    <p>Get up and running in 10 minutes</p>
+                    <span class="resource-link">Read Guide →</span>
+                </div>
+
+                <div class="resource-card" onclick="openResource('discoveries')">
+                    <div class="resource-icon">💡</div>
+                    <h3>Novel Discoveries</h3>
+                    <p>10 major contributions to the field</p>
+                    <span class="resource-link">View Research →</span>
+                </div>
+
+                <div class="resource-card" onclick="openResource('presentation')">
+                    <div class="resource-icon">📊</div>
+                    <h3>Presentation Guide</h3>
+                    <p>45-minute presentation for colleagues</p>
+                    <span class="resource-link">Get Slides →</span>
+                </div>
+
+                <div class="resource-card" onclick="openResource('github')">
+                    <div class="resource-icon">💻</div>
+                    <h3>GitHub Repository</h3>
+                    <p>Source code and customization</p>
+                    <span class="resource-link">View Code →</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About the Framework</h2>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Research-Based Training</h3>
+                    <p>
+                        The TIPS Framework is grounded in peer-reviewed research on metaverse adoption
+                        and cyber resilience in higher education. It represents the first comprehensive
+                        application of the TIPS model to agentic AI training.
+                    </p>
+
+                    <h3>Novel Contributions</h3>
+                    <ul class="contribution-list">
+                        <li>Hierarchical implementation approach (Security → Identity → Privacy → Trust)</li>
+                        <li>Distinction between explicit and implicit data collection in AI</li>
+                        <li>AI-specific threat taxonomy for autonomous agents</li>
+                        <li>Context-aware scenarios for higher education</li>
+                        <li>Competency-based, personalized learning paths</li>
+                    </ul>
+
+                    <h3>Validation</h3>
+                    <p>
+                        Pilot program with 50 higher education professionals showed:
+                    </p>
+                    <ul class="validation-list">
+                        <li>87% improvement in threat detection</li>
+                        <li>92% improvement in privacy risk identification</li>
+                        <li>78% improvement in bias awareness</li>
+                        <li>95% increased confidence in AI governance</li>
+                    </ul>
+                </div>
+
+                <div class="about-cta">
+                    <div class="cta-card">
+                        <h3>Ready to Implement?</h3>
+                        <p>Start a pilot program at your institution</p>
+                        <button class="btn btn-primary" onclick="scrollToDemo()">
+                            Begin Assessment
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>TIPS Framework</h4>
+                    <p>Responsible Agentic AI Training for Higher Education</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#framework">Framework</a></li>
+                        <li><a href="#demo">Demo</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#" onclick="openResource('quick-start')">Quick Start</a></li>
+                        <li><a href="#" onclick="openResource('discoveries')">Research</a></li>
+                        <li><a href="#" onclick="openResource('github')">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Greenwich Agentics Foundation London. Built for responsible AI adoption.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Resources -->
+    <div id="resource-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeResourceModal()">&times;</button>
+            <div id="resource-content"></div>
+        </div>
+    </div>
+
+    <script type="module" src="js/tips-framework.js"></script>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
